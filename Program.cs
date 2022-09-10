@@ -2,7 +2,7 @@
 
 // Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
 
-/* Решение внутри
+ /* Решение внутри
 
 int [] mass (int k)
 {
@@ -55,6 +55,8 @@ Console.WriteLine($"->  {kolich(megamassiv)}" );
 // x = (-b1 + b2) / (k1 - k2) Находим x
 //  k1 * x + b1 == k2 * x + b2  Перепроверка
 
+/* Решение внутри
+
 void Schet (double bb1, double kk1, double bb2, double kk2 )
 {
     double x = (-bb1 + bb2) / (kk1 - kk2);
@@ -85,4 +87,5 @@ double k2 = Convert.ToDouble (Console.ReadLine());
 
 Schet(b1, k1, b2, k2);
 
+*/
 
